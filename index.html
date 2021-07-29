@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <title>Fashion</title>
+</head>
+
+<body>
+    <div class="first-layer row">
+        <div class="first-layer-content">
+            <div class="gender-list">
+                <ul class="gender">
+                    <li class="gender-item">МЪЖЕ</li>
+                    <li class="gender-item">ЖЕНИ</li>
+                </ul>
+            </div>
+
+            <div class="first-layer-title">FASHION</div>
+
+            <div class="dropdown-currency">
+                <select name="select-currency" id="select-currency">
+                    <option value="bgn">BG/BGN</option>
+                    <option value="en">EN/EUR</option>
+                </select>
+                <div class="account-items">
+                    <div class="account-item"><img src="images/svg/man.svg" alt="account image"></div>
+                    <div class="account-item"><img src="images/svg/like.svg" alt="favourites"></div>
+                    <div class="account-item"><img src="images/svg/shopping-cart.svg" alt="shopping cart"></div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="categories visible row">
+        <div class="categories-items">
+            <ul>
+                <li class="categories-item">Ново</li>
+                <li class="categories-item">Облекло</li>
+                <li class="categories-item">Обувки</li>
+                <li class="categories-item">Аксесоари</li>
+                <li class="categories-item sale">SALE</li>
+                <li class="categories-item">Марки</li>
+            </ul>
+        </div>
+        <div class="search-bar">
+            <input type="text" name="serchch-bar" id="search-bar" placeholder="търси...">
+        </div>
+        <img class="search-magnifier" src="images/svg/magnifier.svg" alt="magnifying glass">
+    </div>
+
+    <div class="free-delivery">
+        <p>БЕЗПЛАТНА ДОСТАВКА за поръчки над 150 лв. с промо-код: DELIVERY</p>
+    </div>
+
+    <div class="banner-collection">
+        <img src="images/banner-background.JPG" alt="banner-background" />
+        <div class="banner-group">
+            <div class="new-collection-men">НОВА КОЛЕКЦИЯ МЪЖЕ</div>
+            <div class="season">
+                ПРОЛЕТ/ЛЯТО <span style="font-weight: bold">#URBAN2020</span>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="content">
+        <div class="intro">
+            <img src="css/images/IntroImage.png" alt="intro Image" />
+            <div class="new-collection">
+                <div class="urban-label">#urban comfort</div>
+                <div class="new-collection-label">Нова колекция анцузи</div>
+                <button class="intro-btn" type="submit">ПАЗАРУВАЙ СЕГА</button>
+            </div>
+        </div>
+
+        <div class="most-visited-categories">
+            <div class="category-item">
+                <img src="images/mostvisited/jackets.png" alt="jackets category" />
+                <div class="category-image-label">Якета</div>
+            </div>
+            <div class="category-item">
+                <img src="images/mostvisited/t-shirts.png" alt="t-shirts category" />
+                <div class="category-image-label">Тениски</div>
+            </div>
+            <div class="category-item">
+                <img src="images/mostvisited/sweatshirts.png" alt="sweatshirts category" />
+                <div class="category-image-label">Суичъри</div>
+            </div>
+            <div class="category-item">
+                <img src="images/mostvisited/sets.png" alt="sets category" />
+                <div class="category-image-label">Анцузи</div>
+            </div>
+            <div class="category-item">
+                <img src="images/mostvisited/trousers.png" alt="trousers category" />
+                <div class="category-image-label">Долнища</div>
+            </div>
+            <div class="category-item">
+                <img src="images/mostvisited/accessories.png" alt="accessories category" />
+                <div class="category-image-label">Аксесоари</div>
+            </div>
+        </div>
+
+        <div class="most-searched row">
+            <div class="most-searched-item">
+                <img src="images/flexUrban/t-shirts.png" alt="most searched t-shirts" />
+                <div class="most-searched-banner flex-fit">flex fit</div>
+                <div class="most-searched-item-info">
+                    <div class="most-searched-item-info-header">
+                        <strong>Шапки FLEXFIT</strong>
+                    </div>
+                    <div class="most-searched-item-info-body">
+                        Най-търсени за сезона
+                    </div>
+                    <button class="most-searched-btn" type="submit">
+                        ПАЗАРУВАЙ СЕГА
+                    </button>
+                </div>
+            </div>
+            <div class="most-searched-item">
+                <img src="images/flexUrban/LeatherJackets.png" alt="most searched jackets" />
+                <div class="most-searched-banner urban-style">urban style</div>
+                <div class="most-searched-item-info">
+                    <div class="most-searched-item-info-header">
+                        <strong>Кожени якета</strong>
+                    </div>
+                    <div class="most-searched-item-info-body">
+                        Най-търсени за сезона
+                    </div>
+                    <button class="most-searched-btn" type="submit">
+                        ПАЗАРУВАЙ СЕГА
+                    </button>
+                </div>
+            </div>
+            <div class="most-searched-item">
+                <img src="images/flexUrban/shirts.png" alt="most searched shirts" />
+                <div class="most-searched-banner urban-style-shirt">urban style</div>
+                <div class="most-searched-item-info">
+                    <div class="most-searched-item-info-header">
+                        <strong>Ризи</strong>
+                    </div>
+                    <div class="most-searched-item-info-body">
+                        Най-търсени за сезона
+                    </div>
+                    <button class="most-searched-btn" type="submit">
+                        ПАЗАРУВАЙ СЕГА
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="to-category row">
+            <div class="to-category-item">
+                <img src="images/categories/category1.png" alt="category 1" />
+                <div class="to-category-text">
+                    <div class="to-category-title">Примерно заглавие</div>
+                    <div class="to-category-link">
+                        <a href="#">Виж колекцията ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="to-category-item">
+                <img src="images/categories/category2.png" alt="category 2" />
+                <div class="to-category-text">
+                    <div class="to-category-title">Примерно заглавие</div>
+                    <div class="to-category-link">
+                        <a href="#">Виж колекцията ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="to-category-item">
+                <img src="images/categories/category3.png" alt="category 3" />
+                <div class="to-category-text">
+                    <div class="to-category-title">Примерно заглавие</div>
+                    <div class="to-category-link">
+                        <a href="#">Виж колекцията ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="to-category-item">
+                <img src="images/categories/category4.png" alt="category 4" />
+                <div class="to-category-text">
+                    <div class="to-category-title">Примерно заглавие</div>
+                    <div class="to-category-link">
+                        <a href="#">Виж колекцията ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h4 class="new-products-title">Нови продукти от ILLMATIC</h4>
+        <div class="new-products row">
+            <div class="new-products-item">
+                <img src="images/sale/image1.png" alt="black logo t-shirt" />
+                <div class="new-products-item-text">
+                    <div class="new-products-item-brand">
+                        <strong>ILLMATIC</strong>
+                    </div>
+                    <div class="new-products-item-title">черна тениска с лого</div>
+                    <div class="new-products-item-price">
+                        <del>45,00лв.</del>
+                        <span style="color: red"> <strong>34,00лв.</strong></span>
+                    </div>
+                    <div class="new-products-item-colors">+ 4 цвята</div>
+                </div>
+                <div class="new-products-discount">-23%</div>
+                <div class="new-products-newItem">ново</div>
+            </div>
+            <div class="new-products-item">
+                <img src="images/sale/image2.png" alt="white logo t-shirt" />
+                <div class="new-products-item-text">
+                    <div class="new-products-item-brand"><strong>ILLMATIC</strong></div>
+                    <div class="new-products-item-title">черна тениска с лого</div>
+                    <div class="new-products-item-price"><strong>45,00лв.</strong></div>
+                    <div class="new-products-item-colors">+ 2 цвята</div>
+                </div>
+            </div>
+            <div class="new-products-item">
+                <img src="images/sale/image3.png" alt="white logo t-shirt" />
+                <div class="new-products-item-text">
+                    <div class="new-products-item-brand"><strong>ILLMATIC</strong></div>
+                    <div class="new-products-item-title">черна тениска с лого</div>
+                    <div class="new-products-item-price">
+                        <del>45,00лв.</del><span style="color: red"> <strong>34,00лв.</strong></span>
+                    </div>
+                    <div class="new-products-item-colors">+ 7 цвята</div>
+                </div>
+                <div class="new-products-discount">-23%</div>
+            </div>
+            <div class="new-products-item">
+                <img src="images/sale/image2.png" alt="white logo t-shirt" />
+                <div class="new-products-item-text">
+                    <div class="new-products-item-brand"><strong>ILLMATIC</strong></div>
+                    <div class="new-products-item-title">бяла тениска с лого</div>
+                    <div class="new-products-item-price"><strong>45,00лв.</strong></div>
+                    <div class="new-products-item-colors">+ 2 цвята</div>
+                </div>
+                <div class="new-products-discount">-23%</div>
+            </div>
+            <div class="new-products-item">
+                <img src="images/sale/image5.png" alt="green logo t-shirt" />
+                <div class="new-products-item-text">
+                    <div class="new-products-item-brand"><strong>ILLMATIC</strong></div>
+                    <div class="new-products-item-title">зелена тениска с лого</div>
+                    <div class="new-products-item-price"><strong>45,00лв.</strong></div>
+                    <div class="new-products-item-colors">+ 15 цвята</div>
+                </div>
+                <div class="new-products-newItem-up">ново</div>
+            </div>
+
+            <!-- Adding sample Items -->
+            <div class="new-products-item">
+                <img src="images/sale/image3.png" alt="white logo t-shirt" />
+                <div class="new-products-item-text">
+                    <div class="new-products-item-brand"><strong>ILLMATIC</strong></div>
+                    <div class="new-products-item-title">черна тениска с лого</div>
+                    <div class="new-products-item-price">
+                        <del>45,00лв.</del><span style="color: red"> <strong>34,00лв.</strong></span>
+                    </div>
+                    <div class="new-products-item-colors">+ 7 цвята</div>
+                </div>
+                <div class="new-products-discount">-23%</div>
+            </div>
+            <div class="new-products-item">
+                <img src="images/sale/image2.png" alt="white logo t-shirt" />
+                <div class="new-products-item-text">
+                    <div class="new-products-item-brand"><strong>ILLMATIC</strong></div>
+                    <div class="new-products-item-title">бяла тениска с лого</div>
+                    <div class="new-products-item-price"><strong>45,00лв.</strong></div>
+                    <div class="new-products-item-colors">+ 2 цвята</div>
+                </div>
+                <div class="new-products-discount">-23%</div>
+            </div>
+            <div class="new-products-item">
+                <img src="images/sale/image5.png" alt="green logo t-shirt" />
+                <div class="new-products-item-text">
+                    <div class="new-products-item-brand"><strong>ILLMATIC</strong></div>
+                    <div class="new-products-item-title">зелена тениска с лого</div>
+                    <div class="new-products-item-price"><strong>45,00лв.</strong></div>
+                    <div class="new-products-item-colors">+ 15 цвята</div>
+                </div>
+                <div class="new-products-newItem-up">ново</div>
+            </div>
+            <div class="new-products-item">
+                <img src="images/sale/image3.png" alt="white logo t-shirt" />
+                <div class="new-products-item-text">
+                    <div class="new-products-item-brand"><strong>ILLMATIC</strong></div>
+                    <div class="new-products-item-title">черна тениска с лого</div>
+                    <div class="new-products-item-price">
+                        <del>45,00лв.</del><span style="color: red"> <strong>34,00лв.</strong></span>
+                    </div>
+                    <div class="new-products-item-colors">+ 7 цвята</div>
+                </div>
+                <div class="new-products-discount">-23%</div>
+            </div>
+            <div class="new-products-item">
+                <img src="images/sale/image2.png" alt="white logo t-shirt" />
+                <div class="new-products-item-text">
+                    <div class="new-products-item-brand"><strong>ILLMATIC</strong></div>
+                    <div class="new-products-item-title">бяла тениска с лого</div>
+                    <div class="new-products-item-price"><strong>45,00лв.</strong></div>
+                    <div class="new-products-item-colors">+ 2 цвята</div>
+                </div>
+                <div class="new-products-discount">-23%</div>
+            </div>
+            <div class="new-products-item">
+                <img src="images/sale/image5.png" alt="green logo t-shirt" />
+                <div class="new-products-item-text">
+                    <div class="new-products-item-brand"><strong>ILLMATIC</strong></div>
+                    <div class="new-products-item-title">зелена тениска с лого</div>
+                    <div class="new-products-item-price"><strong>45,00лв.</strong></div>
+                    <div class="new-products-item-colors">+ 15 цвята</div>
+                </div>
+                <div class="new-products-newItem-up">ново</div>
+            </div>
+
+
+            <!-- END OF SAMPLE ITEMS -->
+        </div>
+
+        <h4 class="hands-of-gold-intro">Градски стил от HANDS OF GOLD</h4>
+        <div class="hands-of-gold row">
+            <div class="hands-of-gold-item">
+                <img src="images/UrbanStyle/newTrousersCollection.png" alt="trousers image">
+                <div class="hands-of-gold-text">
+                    <div class="hands-of-gold-label">#urban comfort</div>
+                    <div class="hands-of-gold-title">Нова колекция анцузи</div>
+                    <button class="hands-of-gold-btn" type="submit">пазарувай сега</button>
+                </div>
+            </div>
+            <div class="hands-of-gold-item">
+                <img src="images/UrbanStyle/handsOfGold.png" alt="hands of gold image">
+                <div class="hands-of-gold-text-second">
+                    <div class="hands-of-gold-label">Hands Of Gold</div>
+                    <div class="hands-of-gold-link">
+                        <a href="#">Пазарувай суичъри ></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="seo row">
+            <h4 class="seo-title">Мъжки дрехи и аксесори от онлайн магазин FASHION</h4>
+            <p class="seo-content">Lorem ipsum е един от най-често използваните в печатарството и графичния дизайн
+                заготовъчни текстове [1], служещи да запълват със съдържание онези графични елементи на документ или
+                графична презентация, които трябва да бъдат представени със собствен шрифт, типография, запълвайки ги
+                със стандартен, <a href="#">неотвличащ вниманието</a> (незначещ) текст.
+            </p>
+            <p class="seo-content">Текстът <a href="https://www.lipsum.com/">Lorem ipsum</a> е безсмислен, защото е
+                (непълно) извлечен от пасаж на Цицерон, и затова визуално много прилича на истински – заради
+                разпределението и честотата на срещане на по-къси, средни и дълги думи, разпределението на интервалите и
+                препинателните знаци, както и дължината на изреченията. Разнообразието му осигурява, че ако се случи да
+                бъде размножен, за да изпълни предвиденото пространство, да не се получат шарки от сорта на моарето
+                вследствие еднотипно редуване на думи и <span id="dots">...</span><span id="more">интервали.
+                    „Налят“ по този начин в графичните блокове, Lorem
+                    ipsum позволява на окото да се абстрахира от конкретиката на смисления текст, и да се съсредоточи
+                    само
+                    върху особеностите на използвания шрифт и неговото визуално въздействие върху читателя. Въпреки че
+                    текстът самостоятелно не носи смисъл (или такъв е трудно да се намери), той има дълга, петвековна
+                    история. Lorem ipsum е стандарт в печатния набор още от началото на 16 век, когато неизвестен
+                    печатар
+                    взел една шпалта набран текст на латински, като избрал само част от набора думи, а някои от думите –
+                    не
+                    в тяхната цялост. Текстът бил взет от параграфи 1.10.32 – 3 от „De finibus bonorum et malorum“ („За
+                    границите на доброто и злото“), трактат на Цицерон върху теория на етиката. Пасажът „Lorem ipsum...“
+                    е
+                    взет от оригиналния пасаж „Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+                    consectetur,
+                    adipisci velit...“, което се превежда като „Няма никой, който да обича болката сама по себе си, да я
+                    търси и да иска да я изпитва, просто защото е болка...“ Почти непроменен през последните пет века,
+                    текстът се използва и при навлизането на компютърните технологии в текстообработката и предпечатната
+                    подготовка. Съществуват версии на Lorem ipsum, съдържащи в добавка букви като k, w и z, които са
+                    несвойствени или изобщо липсват в латинския език. В Интернет могат да се намерят и генератори на
+                    текстове, подобни на Lorem ipsum, в които могат да се указват предпочитания за броя букви, думи и
+                    параграфи, за „езика“ и стила на dummy текста и др.</span>
+            </p>
+            <button class="seo-btn" id="myBtn" type="Submit">Виж повече >
+            </button>
+
+        </div>
+
+    </section>
+
+    <hr>
+
+    <section class="find-us-payment-delivery row">
+        <div class="fashion logo">
+            fashion
+        </div>
+        <div class="social-media layer">
+            <div class="social-media-title logo">
+                последвайте ни:
+            </div>
+            <div class="facebook logo"><img src="images/svg/facebook.svg" alt="facebook logo"></div>
+            <div class="instagram logo"><img src="images/svg/instagram.svg" alt="instagram logo"></div>
+            <div class="youtube logo"><img src="images/svg/youtube.svg" alt="youtube logo"></div>
+        </div>
+        <div class="payment-methods layer">
+            <div class="payment-methods-title logo">начини на плащане: </div>
+            <div class="paypal logo"><img src="images/svg/paypal.svg" alt="paypal logo"></div>
+            <div class="visa logo"><img src="images/svg/visa.svg" alt="visa logo"></div>
+            <div class="maestro logo"><img src="images/svg/maestro.svg" alt=""></div>
+            <div class="mastercard logo"><img src="images/svg/mastercard.svg" alt=""></div>
+            <div class="cash logo">наложен<br>платеж</div>
+        </div>
+        <div class="delivery logo layer">
+            <div class="delivery-title logo">
+                доставяме чрез:
+            </div>
+            <div class="speedy logo">
+                <img src="images/svg/speedy.svg" alt="speedy logo">
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="footer row">
+        <div class="footer-col">
+            <div class="footer-col-title">Полезни връзки</div>
+            <div class="footer-col-item">Доставка и плащане</div>
+            <div class="footer-col-item">Връщане и замяна</div>
+            <div class="footer-col-item">Често задавани въпроси</div>
+            <div class="footer-col-item">Онлайн решаване на спорове</div>
+            <div class="footer-col-item">Таблица с размери</div>
+        </div>
+        <div class="footer-col">
+            <div class="footer-col-title">За FASHION</div>
+            <div class="footer-col-item">За онлайн магазин FASHION</div>
+            <div class="footer-col-item">Общи условия</div>
+            <div class="footer-col-item">Политика за поверителност</div>
+            <div class="footer-col-item">Контакти</div>
+        </div>
+        <div class="footer-col">
+            <div class="footer-col-title">Свържете се с нас</div>
+            <div class="footer-col-item">Тел. +359 222 666 777</div>
+            <div class="footer-col-item">(Пн.-Пт. 9 - 17 ч.)</div>
+            <div class="footer-col-item">Пишете ни</div>
+        </div>
+        <div class="footer-col">
+            <div class="footer-col-item">Абонирай се за нашия онлайн бюлети и вземи <span
+                    style="color: black;font-weight: bold;">10 ЛВ.
+                    ОТСТЪПКА</span>
+                на първа поръчка*
+            </div>
+            <button class="footer-col-btn" type="submit"><img src="images/svg/mail.svg" alt="mail svg"> АБОНИРАЙ
+                СЕ</button>
+            <div class="footer-col-item"><a href="#">Виж повече за кампанията ></a></div>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <section class="end row">
+        <div class="end-copyright">© 2020-2021 FASHION</div>
+        <div class="end-text">Онлайн магазин за мъжки и дамски дрехи и обувки.</div>
+        <div class="end-maker"><img src="images/svg/stenik.svg" alt="stenik svg"> Онлайн магазин от
+            <span style="color:black;font-weight:bold">Stenik</span>
+        </div>
+    </section>
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

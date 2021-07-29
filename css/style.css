@@ -1,0 +1,619 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+hr {
+  margin: 0;
+}
+
+/* ----------HEADER------------ */
+
+.first-layer {
+  background-color: #333333;
+  color: white;
+}
+
+.first-layer-title {
+  width: 80%;
+  float: left;
+  display: inline;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.first-layer-content {
+  width: 80%;
+  margin-left: 10%;
+  position: relative;
+}
+
+.gender {
+  list-style: none;
+}
+
+.gender-item {
+  cursor: pointer;
+  float: left;
+  margin-right: 15px;
+}
+
+.dropdown-currency {
+  float: left;
+  margin-bottom: 5px;
+  display: inline;
+  position: absolute;
+  left: 85%;
+}
+
+.account-items {
+  display: inline;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.account-item {
+  display: inline;
+}
+
+.account-item img {
+  width: 8%;
+  color: white;
+}
+
+#select-currency {
+  background-color: #333333;
+  color: white;
+  border-style: none;
+  border-right: 1px solid;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.categories {
+  width: 80%;
+  margin: 10px 0 10px 10%;
+  position: relative;
+}
+
+.visible {
+  display: none;
+}
+
+.sale {
+  color: red;
+}
+
+.categories-item {
+  list-style: none;
+  float: left;
+  margin-right: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.search-bar input {
+  border-style: none;
+  border-bottom: 1px solid black;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.search-magnifier {
+  width: 20px;
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+
+.free-delivery {
+  background-color: #e74b54;
+  color: white;
+  font-size: 0.813rem;
+  height: 40px;
+  text-align: center;
+}
+
+.free-delivery p {
+  padding-top: 10px;
+}
+
+/* -----------BANNER-------------- */
+
+.banner-collection {
+  letter-spacing: 1px;
+  height: 10%;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-collection img {
+  width: 100%;
+}
+
+.banner-group {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.new-collection-men {
+  font-weight: bold;
+  font-size: 0.875rem;
+  margin-bottom: 5px;
+}
+
+.season {
+  height: 30px;
+  background-color: #333333;
+  font-weight: 100;
+  font-size: 1.116rem;
+  padding: 2px 10px;
+}
+
+.content {
+  margin: 1.5% 10%;
+}
+
+.intro {
+  position: relative;
+}
+
+.intro img {
+  width: 100%;
+}
+
+.new-collection {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.urban-label {
+  font-size: 1.625rem;
+  text-align: center;
+}
+
+.new-collection-label {
+  font-size: 2.875rem;
+  margin-bottom: 20px;
+}
+
+.intro-btn {
+  border-style: none;
+  font-size: 0.875rem;
+  padding: 15px 30px;
+  position: absolute;
+  top: 90%;
+  left: 32.5%;
+}
+
+/* ------------MOST VISITED------------ */
+
+.most-visited-categories {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.category-item {
+  display: inline-block;
+  width: 15%;
+  margin-right: 20px;
+  position: relative;
+}
+
+.category-item:last-child {
+  margin: 0;
+}
+
+.category-item img {
+  width: 100%;
+}
+
+.category-image-label {
+  color: white;
+  position: absolute;
+  bottom: 5%;
+  left: 35%;
+}
+
+/* --------MOST SEARCHED ITEMS--------- */
+
+.most-searched {
+  width: 100%;
+  margin: 40px 0;
+}
+
+.most-searched-item {
+  float: left;
+  width: 30%;
+  margin: auto;
+  position: relative;
+}
+
+.most-searched-item img {
+  width: 90%;
+  height: 450px;
+}
+
+.most-searched-item-info {
+  text-align: center;
+  padding: 10px;
+}
+
+.most-searched-item-info-header {
+  font-size: 1rem;
+}
+
+.most-searched-item-info-body {
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin: 12px 0;
+}
+
+.most-searched-btn {
+  padding: 5px 20px;
+  font-size: 0.75rem;
+  border: 1px solid lightgray;
+  background-color: white;
+}
+
+.most-searched-banner {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2rem;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.flex-fit {
+  position: absolute;
+  width: 203px;
+  bottom: 193px;
+  left: -100px;
+  transform: rotate(-0.25turn);
+}
+
+.urban-style {
+  position: absolute;
+  width: 96%;
+  bottom: 115px;
+  left: -14px;
+  padding: 0;
+}
+
+.urban-style-shirt {
+  position: absolute;
+  transform: rotate(0.25turn);
+  width: 300px;
+  bottom: 241px;
+  right: -75px;
+}
+
+/* -----------SHOPPING CATEGORIES----------- */
+
+.to-category-item {
+  float: left;
+  width: 23.5%;
+  margin-right: 18px;
+  position: relative;
+}
+
+.to-category-item:last-child {
+  margin: 0;
+}
+
+.to-category-item img {
+  width: 100%;
+}
+
+.to-category-text {
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
+  color: white;
+  text-align: center;
+}
+
+.to-category-link a {
+  color: white;
+  font-size: 0.75rem;
+}
+
+/* -------------ILLMATIC NEW PRODUCTS--------------- */
+
+.new-products {
+  width: 100%;
+  margin: 30px auto;
+}
+
+.new-products-title {
+  font-size: 18px;
+  text-align: center;
+  margin: 50px 0 20px;
+}
+
+.new-products-item {
+  position: relative;
+  float: left;
+  width: 93% !important;
+  margin-right: 25px !important;
+}
+
+.new-products-item:last-child {
+  margin-right: 0;
+}
+
+.new-products-item img {
+  width: 100%;
+}
+
+.new-products-item-text {
+  text-align: center;
+  margin: 5px 0 10px;
+  font-size: 12px;
+}
+
+.new-products-discount {
+  background-color: rgb(248, 88, 88);
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  width: 20%;
+  height: 5%;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+.new-products-newItem {
+  text-transform: uppercase;
+  width: 20%;
+  text-align: center;
+  background-color: rgb(75, 75, 75);
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+
+.new-products-newItem-up {
+  text-transform: uppercase;
+  width: 20%;
+  text-align: center;
+  background-color: rgb(75, 75, 75);
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+/* ------------URBAN STYLE - HANDS OF GOLD--------------- */
+
+.hands-of-gold-intro {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hands-of-gold {
+  width: 100%;
+  margin: 0 0 50px;
+}
+
+.hands-of-gold-item {
+  float: left;
+  width: 49.25%;
+  margin-right: 20px;
+  position: relative;
+}
+
+.hands-of-gold-item:last-child {
+  margin-right: 0;
+}
+
+.hands-of-gold-item img {
+  width: 100%;
+}
+
+.hands-of-gold-text {
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  right: 40%;
+}
+
+.hands-of-gold-title {
+  margin-bottom: 10px;
+}
+
+.hands-of-gold-btn {
+  border: none;
+  padding: 5px 20px;
+}
+
+.hands-of-gold-text-second {
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  right: 40%;
+}
+
+.hands-of-gold-link a {
+  color: white;
+  font-weight: 100;
+  font-size: 13px;
+}
+
+/* --------------SEO---------------- */
+
+.seo {
+  width: 100%;
+  margin: 60px auto;
+}
+
+.seo-title {
+  margin-bottom: 20px;
+}
+
+#more {
+  display: none;
+}
+
+.seo-content {
+  text-align: justify;
+  color: grey;
+  font-size: 13px;
+}
+
+.seo-btn {
+  margin-top: 10px;
+  border: none;
+  background-color: white;
+  text-align: left;
+  font-size: 12px;
+  padding-left: 0;
+  text-decoration: underline;
+}
+
+/* -------------Find US, DELIVERY, Payment Methods---------------- */
+
+.find-us-payment-delivery {
+  margin: 10px 10%;
+  align-items: center;
+  overflow: hidden;
+}
+
+.logo img {
+  width: 40px;
+  height: auto;
+  margin-left: 15px;
+}
+
+.facebook img,
+.instagram img,
+.youtube img {
+  width: 25px;
+  height: auto;
+}
+
+.speedy img {
+  width: 60px;
+}
+
+.social-media {
+  margin-right: 100px;
+}
+
+.fashion {
+  margin-right: 100px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.payment-methods {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.logo {
+  float: left;
+  text-transform: uppercase;
+}
+
+.social-media-title,
+.payment-methods-title,
+.delivery-title,
+.cash {
+  font-size: 13px;
+
+  /* display: inline-block;
+  vertical-align: baseline; */
+}
+
+.cash {
+  border: 1px solid lightgrey;
+  margin-left: 15px;
+  padding: 10px;
+  font-size: 10px;
+  text-align: center;
+}
+
+/* -------------FOOTER------------------ */
+
+.footer {
+  margin: 20px 10%;
+  overflow: hidden;
+  line-height: 2.5;
+}
+
+.footer-col {
+  width: 17.5%;
+  margin-right: 100px;
+  font-size: 13px;
+  text-align: left;
+}
+
+.footer-col-title {
+  font-weight: bold;
+}
+
+.footer-col-btn {
+  width: 100%;
+  text-align: center;
+  padding: 0 20px;
+  background-color: white;
+}
+
+.footer-col-btn img {
+  width: 30px;
+  height: 20px;
+}
+
+.footer-col-item {
+  color: grey;
+  font-weight: 300;
+}
+
+.footer-col-item a {
+  color: black;
+  text-decoration: underline;
+}
+
+/* ---------------END----------------- */
+
+.end {
+  margin: 15px 10% 10px;
+  color: grey;
+  font-size: 13px;
+}
+
+.end-copyright {
+  float: left;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px solid;
+}
+
+.end-maker {
+  margin-left: 50%;
+}

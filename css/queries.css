@@ -1,0 +1,443 @@
+/* Small tablet to big tablet */
+@media only screen and (max-width: 1023px) {
+  .first-layer-title {
+    width: 60%;
+  }
+
+  .gender-item {
+    font-size: 1rem;
+  }
+
+  .dropdown-currency {
+    left: 75%;
+  }
+
+  .account-item img {
+    width: 8%;
+    color: white;
+  }
+
+  #select-currency {
+    font-size: 0.75rem;
+  }
+
+  .search-bar input {
+    font-size: 12px;
+  }
+
+  .search-magnifier {
+    width: 12px;
+    top: 5px;
+  }
+
+  /* -------------------------- */
+
+  .free-delivery p {
+    font-size: 13px;
+  }
+
+  .banner-group {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .new-collection-men {
+    font-size: 10px;
+    margin-bottom: 0;
+  }
+
+  .season {
+    height: 15px;
+    font-size: 10px;
+    padding: 0 5px;
+  }
+
+  .intro img {
+    margin-top: 15px;
+  }
+
+  .urban-label {
+    font-size: 20px;
+  }
+
+  .new-collection-label {
+    font-size: 20px;
+  }
+
+  .intro-btn {
+    font-size: 12px;
+    padding: 5px 10px;
+    top: 90%;
+    left: 22%;
+  }
+
+  .category-item {
+    width: 29.5%;
+    margin-bottom: 20px;
+  }
+
+  .most-searched-item img {
+    width: 90%;
+    height: 230px;
+  }
+
+  .flex-fit {
+    width: 140px;
+    bottom: 162px;
+    left: -70px;
+  }
+
+  .urban-style {
+    left: -6px;
+    font-size: 1.5rem;
+  }
+
+  .urban-style-shirt {
+    width: 180px;
+    font-size: 1.5rem;
+    bottom: 187px;
+    right: -55px;
+  }
+
+  .to-category {
+    justify-content: center;
+  }
+
+  .to-category-item {
+    width: 35%;
+    margin-bottom: 18px;
+  }
+
+  .to-category-item:last-child {
+    margin: 0 18px 18px 0;
+  }
+
+  .to-category-text {
+    left: 20%;
+  }
+
+  .hands-of-gold-item {
+    width: 48%;
+  }
+
+  .hands-of-gold-text {
+    right: 20%;
+  }
+
+  .hands-of-gold-text-second {
+    right: 30%;
+  }
+
+  .layer {
+    width: 100%;
+  }
+
+  .fashion {
+    margin-bottom: 20px;
+  }
+
+  .footer-col {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+
+  .end-maker {
+    margin: 5% 0 2%;
+  }
+}
+
+/* Small phones to small tablets*/
+@media only screen and (max-width: 767px) {
+  .first-layer-title {
+    width: 40%;
+    font-size: 1rem;
+  }
+
+  .gender {
+    width: 45%;
+  }
+
+  .gender-item {
+    font-size: 0.75rem;
+  }
+
+  .dropdown-currency {
+    left: 68%;
+  }
+
+  .account-item img {
+    width: 8%;
+    color: white;
+  }
+
+  #select-currency {
+    font-size: 0.75rem;
+  }
+
+  .search-bar input {
+    font-size: 60%;
+  }
+
+  .search-magnifier {
+    top: 3px;
+  }
+
+  /* ---------------------------- */
+
+  .categories {
+    width: 100%;
+    margin: 10px 0 10px 0;
+  }
+
+  .categories-items {
+    width: 100%;
+  }
+
+  .categories-item {
+    width: 100%;
+    margin: 0;
+  }
+
+  .free-delivery {
+    height: 30px;
+  }
+
+  .free-delivery p {
+    font-size: 11px;
+    padding-top: 12px;
+  }
+
+  .banner-collection img {
+    height: 40px;
+  }
+
+  .new-collection-men {
+    font-size: 8px;
+    margin-bottom: 0;
+  }
+
+  .season {
+    height: 13px;
+    font-size: 8px;
+    padding: 0 3px;
+  }
+
+  .urban-label,
+  .new-collection-label {
+    font-size: 18px;
+  }
+
+  .intro-btn {
+    font-size: 12px;
+    padding: 5px 10px;
+    top: 90%;
+    left: 22%;
+  }
+
+  .category-item {
+    width: 45%;
+    margin-right: 15px;
+  }
+
+  .most-searched-item img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .flex-fit {
+    font-size: 20px;
+    width: 110px;
+    bottom: 191px;
+    left: -55px;
+  }
+
+  .urban-style {
+    width: 104%;
+    left: -3px;
+    bottom: 150px;
+    font-size: 1.2rem;
+  }
+
+  .urban-style-shirt {
+    width: 140px;
+    font-size: 1.1rem;
+    bottom: 208px;
+  }
+
+  .to-category {
+    justify-content: center;
+  }
+
+  .to-category-item {
+    width: 40%;
+    margin-bottom: 18px;
+  }
+
+  .to-category-text {
+    font-size: 13px;
+  }
+
+  .hands-of-gold {
+    justify-content: center;
+  }
+
+  .hands-of-gold-item {
+    width: 80%;
+    margin-bottom: 18px;
+    margin-right: 0;
+  }
+
+  .hands-of-gold-text {
+    right: 25%;
+  }
+
+  .hands-of-gold-text-second {
+    right: 30%;
+  }
+
+  .layer {
+    margin-bottom: 15px;
+  }
+
+  .footer-col {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .first-layer-title {
+    width: 24%;
+    font-size: 1rem;
+  }
+
+  .gender {
+    width: 45%;
+  }
+
+  .gender-item {
+    font-size: 0.75rem;
+  }
+
+  .dropdown-currency {
+    left: 68%;
+  }
+
+  .account-item img {
+    width: 8%;
+    color: white;
+  }
+
+  #select-currency {
+    font-size: 0.75rem;
+  }
+  /* ---------------------------- */
+
+  .categories {
+    width: 100%;
+    margin: 10px 0 10px 0;
+  }
+
+  .visible {
+    display: none;
+  }
+
+  .sale {
+    color: red;
+  }
+
+  .categories-items {
+    width: 100%;
+  }
+
+  .categories-item {
+    width: 100%;
+    margin: 0;
+  }
+
+  .search-magnifier {
+    top: 3px;
+    right: 4px;
+  }
+
+  .free-delivery p {
+    font-size: 10px;
+    padding-top: 7px;
+  }
+
+  .banner-collection img {
+    height: 40px;
+  }
+
+  .urban-label,
+  .new-collection-label {
+    font-size: 13px;
+  }
+
+  .intro-btn {
+    font-size: 8px;
+    left: 21%;
+  }
+
+  .category-item {
+    width: 45%;
+    margin-right: 10px;
+  }
+
+  .most-searched-item {
+    width: 100%;
+  }
+
+  .most-searched-item img {
+    width: 60%;
+    margin: 20px 20%;
+    height: 200px;
+  }
+
+  .flex-fit {
+    bottom: 175px;
+    left: 20px;
+  }
+
+  .urban-style {
+    width: 64%;
+    left: 63px;
+    bottom: 125px;
+  }
+
+  .urban-style-shirt {
+    right: 15px;
+    bottom: 192px;
+  }
+
+  .to-category-item {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .to-category-text {
+    font-size: 25px;
+  }
+
+  .layer {
+    margin-bottom: 15px;
+  }
+
+  .logo {
+    font-size: 10px;
+  }
+
+  .logo img {
+    width: 30px;
+    height: auto;
+    margin-left: 15px;
+  }
+
+  .fashion {
+    font-size: 20px;
+  }
+}
